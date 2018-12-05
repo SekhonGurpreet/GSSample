@@ -1,0 +1,6 @@
+framework module GSSample {
+  umbrella header "GSSample-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - GSSample (0.1.0)
+
+DEPENDENCIES:
+  - GSSample (from `../`)
+
+EXTERNAL SOURCES:
+  GSSample:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GSSample: 4a211699563cc4cf24e896499ca013d8ba4da31c
+
+PODFILE CHECKSUM: 0d49303d246d4dd99e503bccd52ddac327fb73f7
+
+COCOAPODS: 1.5.3
