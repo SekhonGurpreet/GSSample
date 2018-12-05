@@ -17,26 +17,26 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'This is a sample library for circular image view'
 
-  s.homepage         = 'https://github.com/Gurpreet Singh/GSSample'
+  
+
+  s.homepage         = 'https://github.com/SekhonGurpreet/GSSample'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Gurpreet Singh' => 'gurpreet.singh54@wipro.com' }
-  s.source           = { :git => 'https://github.com/Gurpreet Singh/GSSample.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SekhonGurpreet/GSSample.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GSSample/Classes/**/*'
+  s.source_files = 'GSSample/**/*.swift'
   
   # s.resource_bundles = {
   #   'GSSample' => ['GSSample/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
