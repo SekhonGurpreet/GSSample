@@ -219,9 +219,9 @@
 		DAB10DC7B52EFAC213255DB28C4CF28B /* GSSample */ = {
 			isa = PBXGroup;
 			children = (
+				93E9F6C121B7CD4A00B8EDB1 /* UIImageExtension.swift */,
 				6EF6EF64342D1A3091E434C4793B824B /* Pod */,
 				707924897AE94057F04762D9753E6C7A /* Support Files */,
-				93E9F6C121B7CD4A00B8EDB1 /* UIImageExtension.swift */,
 			);
 			name = GSSample;
 			path = ../..;
