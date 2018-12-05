@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GSSample'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of GSSample.'
 
 # This description is used to generate tags and improve search results.
@@ -17,20 +17,20 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'This is a sample library for circular image view'
-
-  
+  s.description      = <<-DESC
+TODO: Add long description of the pod here.
+                       DESC
 
   s.homepage         = 'https://github.com/SekhonGurpreet/GSSample'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Gurpreet Singh' => 'gurpreet.singh54@wipro.com' }
-  s.source           = { :git => 'https://github.com/SekhonGurpreet/GSSample.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/SekhonGurpreet/GSSample.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GSSample/**/*.swift'
+  s.source_files = 'GSSample/Classes/**/*'
   
   # s.resource_bundles = {
   #   'GSSample' => ['GSSample/Assets/*.png']
